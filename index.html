@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>விநாயகர் சதுர்த்தி – நன்கொடை பட்டியல் | ஸ்ரீ சித்தி விநாயகர் ஆலயம்</title>
+<link rel="stylesheet" href="vendor/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500;700;800&family=Noto+Sans+Tamil:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+
+<div class="garland" aria-hidden="true"></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="assets/ganesha.jpg" alt="ஸ்ரீ விநாயகர்" class="hero-img">
+    <div class="hero-text text-center">
+      <p class="temple-line">ஸ்ரீ சித்தி விநாயகர் ஆலயத்தில்</p>
+      <h1 class="fest-title">விநாயகர் சதுர்த்தி</h1>
+      <div class="badge-row">
+        <span class="plaque">நன்கொடை</span>
+        <span class="ribbon">பட்டியல்</span>
+      </div>
+      <p class="blessing">விநாயகர் துணையுடன் நம் அனைவரின் முயற்சியும் வெற்றி பெறட்டும்…</p>
+    </div>
+  </div>
+</header>
+
+<main class="container table-wrap">
+  <div class="donor-card">
+    <div class="table-responsive">
+      <table class="table donor-table mb-0 align-middle">
+        <thead>
+          <tr>
+            <th class="col-serial">வரிசை எண்</th>
+            <th>கொடுத்தவர் பெயர்</th>
+            <th class="col-amt">அமௌன்ட் (₹)</th>
+          </tr>
+        </thead>
+        <tbody id="donorRows">
+          <tr><td colspan="3" class="loading">தரவு ஏற்றப்படுகிறது…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <section class="total-banner text-center">
+    <span class="corner deco-left" aria-hidden="true">🪔</span>
+    <span class="corner deco-right" aria-hidden="true">🪔</span>
+    <p class="total-label">இதுவரை மொத்த நன்கொடை தொகை</p>
+    <p class="total-amount">₹ <span id="grandTotal">0</span></p>
+  </section>
+
+  <p class="thanks">நன்கொடை வழங்கிய அனைவருக்கும்<br><strong>மனமார்ந்த நன்றி!</strong></p>
+  <p class="text-center"><img src="assets/gopuram.jpg" alt="ஆலய கோபுரம்" class="gopuram-img img-fluid rounded" loading="lazy"></p>
+</main>
+
+<footer class="footer">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <span>🙏 ஸ்ரீ சித்தி விநாயகர் ஆலயம்</span>
+    <a href="admin.html" class="admin-link">நிர்வாகம் (Admin)</a>
+  </div>
+</footer>
+
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="vendor/xlsx.full.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
